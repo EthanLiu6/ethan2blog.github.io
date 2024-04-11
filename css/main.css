@@ -177,7 +177,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.8em;
   line-height: 1.25;
 }
@@ -193,7 +193,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -436,7 +436,7 @@ pre {
 }
 pre,
 code {
-  font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
+  font-family: 'Menlo', consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
 }
 code {
   background: #eee;
@@ -971,16 +971,16 @@ pre .javascript .function {
 }
 .main-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 800px;
 }
 @media (min-width: 1200px) {
   .main-inner {
-    width: 800px;
+    width: 910px;
   }
 }
 @media (min-width: 1600px) {
   .main-inner {
-    width: 900px;
+    width: 920px;
   }
 }
 @media (max-width: 767px) {
@@ -993,16 +993,16 @@ pre .javascript .function {
 }
 .header-inner {
   margin: 0 auto;
-  width: 700px;
+  width: 800px;
 }
 @media (min-width: 1200px) {
   .header-inner {
-    width: 800px;
+    width: 910px;
   }
 }
 @media (min-width: 1600px) {
   .header-inner {
-    width: 900px;
+    width: 920px;
   }
 }
 .site-brand-container {
@@ -1027,7 +1027,7 @@ pre .javascript .function {
   border-bottom: none;
   color: var(--brand-color);
   display: inline-block;
-  line-height: 1.375em;
+  line-height: 3em;
   padding: 0 40px;
   position: relative;
 }
@@ -1035,8 +1035,8 @@ pre .javascript .function {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 1.375em;
+  font-family: 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 3em;
   font-weight: normal;
   margin: 0;
 }
@@ -1253,11 +1253,6 @@ pre .javascript .function {
   position: fixed;
   top: 0;
 }
-@media (max-width: 991px) {
-  .sidebar {
-    display: none;
-  }
-}
 .sidebar-inner {
   color: #999;
   padding: 18px 10px;
@@ -1311,7 +1306,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #98ff3b;
+  background: #f771ba;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1430,7 +1425,6 @@ pre .javascript .function {
   .sidebar-toggle {
     left: 20px;
     opacity: 0.8;
-    display: none;
   }
 }
 .sidebar-toggle:hover .toggle-line {
@@ -1524,16 +1518,16 @@ pre .javascript .function {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  width: 700px;
+  width: 800px;
 }
 @media (min-width: 1200px) {
   .footer-inner {
-    width: 800px;
+    width: 910px;
   }
 }
 @media (min-width: 1600px) {
   .footer-inner {
-    width: 900px;
+    width: 920px;
   }
 }
 .languages {
@@ -1661,13 +1655,13 @@ pre .javascript .function {
   top: 0;
 }
 .post-body {
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 @media (min-width: 1200px) {
   .post-body {
-    font-size: 1.125em;
+    font-size: 20px;
   }
 }
 .post-body .exturl .fa {
@@ -1918,7 +1912,7 @@ pre .javascript .function {
   margin: 0;
 }
 .posts-expand .post-header {
-  font-size: 1.125em;
+  font-size: 1.5em;
 }
 .posts-expand .post-title {
   font-size: 1.5em;
@@ -1959,7 +1953,7 @@ pre .javascript .function {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.65em;
   margin: 3px 0 60px 0;
   text-align: center;
@@ -2344,13 +2338,13 @@ ul.breadcrumb li + li:last-child {
 .search-popup {
   background: var(--card-bg-color);
   border-radius: 5px;
-  height: 80%;
+  height: 50%;
   left: calc(50% - 350px);
   position: fixed;
   top: 10%;
   transform: scale(0);
   transition: transform 0.2s;
-  width: 700px;
+  width: 800px;
   z-index: 1500;
 }
 .search-active .search-popup {
@@ -2546,13 +2540,13 @@ embed {
   display: inline-block;
 }
 .sidebar {
-  left: -230px;
+  left: -250px;
 }
 .sidebar.sidebar-active {
   left: 0;
 }
 .sidebar {
-  width: 230px;
+  width: 250px;
   z-index: 1200;
   transition-delay: 0s;
   transition-duration: 0.2s;
@@ -2583,10 +2577,10 @@ embed {
 body {
   background: url("/images/background.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
 .content-wrap {
-  opacity: 0.95;
+  background-color: rgba(255,255,255,0.1);
 }
